@@ -8,9 +8,7 @@
   </a>
 </div>
 
-# NLW Expert (Python)
-https://www.rocketseat.com.br/eventos/nlw/_next/static/media/python.8c4574ca.svg
-https://www.rocketseat.com.br/eventos/nlw/_next/static/media/node.10094861.svg
+# NLW Expert (Python) ![Python Logo](https://www.rocketseat.com.br/eventos/nlw/_next/static/media/python.8c4574ca.svg)
 
 ## Project
 This project was developed as part of the NLW Expert event organized by Rocketseat. It is an API using Flask and Barcode. 
