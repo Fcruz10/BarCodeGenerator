@@ -9,6 +9,8 @@
 </div>
 
 # NLW Expert (Python)
+https://www.rocketseat.com.br/eventos/nlw/_next/static/media/python.8c4574ca.svg
+https://www.rocketseat.com.br/eventos/nlw/_next/static/media/node.10094861.svg
 
 ## Project
 This project was developed as part of the NLW Expert event organized by Rocketseat. It is an API using Flask and Barcode. 
@@ -38,9 +40,21 @@ The endpoint will validate, and create an PNG image with a barcode.
 
 ## Setup
 - Clone the repository
-- Install dependencies (` pip install -r requirements.txt `)
-- Run application (`py .\run.py`)
-- For unit testing run `pytest`
+```bash
+git clone https://github.com/Fcruz10/BarCodeGenerator.git
+```
+- Install dependencies
+```bash
+ pip install -r requirements.txt
+```
+- Run application
+```bash
+ py .\run.py
+```
+- For unit testing run
+```bash
+ pytest
+```
 
 # Endpoints:
 *  POST `/create_tag`
