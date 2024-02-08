@@ -54,7 +54,32 @@ git clone https://github.com/Fcruz10/BarCodeGenerator.git
  pytest
 ```
 
+## Useful Commands
+- Activate the virtual environment
+```bash
+.venv/bin/activate
+```
+- Install Python packages
+```bash
+pip install <SOMETHING> (or pip3 install <SOMETHING>)
+```
+- Execute Python script
+```bash
+python run.py (or python3 run.py)
+```
+- Generate a file that contains the names and versions of all the installed packages
+```bash
+pip freeze > requirements.tx (or pip3 freeze > requirements.tx)
+```
+- Run automated tests written using the pytest framework
+```bash
+pytest
+```
+
 # Endpoints:
 *  POST `/create_tag`
 receives a body: `{"product_code": "string"}`
-    * If sent as `"tag_type": "qrcode"` the tag will be as qrcode
+    * If sent on body `"tag_type": "qrcode"` the tag will be generated as qrcode
+
+<br />
+<p align="center"> Made by Francisco Cruz <a href="https://www.linkedin.com/in/francisco-cruz-074208140/"> Get in touch! </a> </p>
